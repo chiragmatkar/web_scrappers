@@ -28,10 +28,10 @@ cont = requests.get("https://kickass.to/usearch/yify%20720p%202014")
 soup = BeautifulSoup(cont.content)
 href = [a.get('href') for a in soup.find_all('a', {'title':'Download torrent file'})]
 
-#for x in range(2,15):
-#	cont = requests.get("https://kickass.to/usearch/yify%20720p%202014/"+str(x))
-#	soup = BeautifulSoup(cont.content)
-#	href.extend([a.get('href') for a in soup.find_all('a', {'title':'Download torrent file'})])
+for x in range(2,15):
+	cont = requests.get("https://kickass.to/usearch/yify%20720p%202014/"+str(x))
+	soup = BeautifulSoup(cont.content)
+	href.extend([a.get('href') for a in soup.find_all('a', {'title':'Download torrent file'})])
 
 
 for x in href:	
