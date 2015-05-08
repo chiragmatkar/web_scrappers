@@ -1,3 +1,4 @@
+#Script to Download Hitorical finacial data from Yahoo finance in a csv file
 import urllib
 
 base_url = "http://ichart.finance.yahoo.com/table.csv?s="
