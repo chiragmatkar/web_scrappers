@@ -7,3 +7,4 @@ This directory consists of diferent scrapping projects mainly written in **Pytho
 **<h5>santabanta</h5>**: Scrapper used to  Extract High Definiton wallpapers of global celebrities,indian celebrities,sciene,nature,cars etc  
 **<h5>torrent</h5>**:  Scrapper used for extracting set of specific torrents bases on search list and categories.  
 **<h5>imdb</h5>**:  Scrapper used to extract movie information including cast,images,videos,ratings,critics lsiting etc.  
+**<h5>yahoo_finance</h5>** Scrapper used to extract financial information about stocks.trades,markets etc.
