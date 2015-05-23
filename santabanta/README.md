@@ -20,13 +20,13 @@ scrapy crawl santabanta (default wallpapers=kelly-brook)
 
 The naming convention for running sipder keyword argumets is small case first name and last name seperated by - (hrithik-roshan)    
 
-The santabanta spider scrapes the wallpapers paged across for Hig Definition Images.     
+The santabanta spider scrapes wallpapers with paging and finds those beautiful Images.     
 
-This spider doesn't crawl the entire dmoz.org site but only a few pages by default (defined in the wallpapers attribute).     These pages are:    
+This spider doesn't crawl the entire santabanta site but only a few pages by default (defined in the wallpapers section).   These pages are:    
 
 http://www.santabanta.com/wallpapers    
 
-So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).   
+So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).Cutomization for resolution of wallpapers can be done adjusting height and weidth in setting.py   
 
 **<h3>Image Pipelines</h3>**      
 
