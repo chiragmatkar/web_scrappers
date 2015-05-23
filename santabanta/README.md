@@ -28,7 +28,7 @@ http://www.santabanta.com/wallpapers
 
 So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).   
 
-Image Pipelines    
+**Image Pipelines**      
 
 This project uses a cutomized Image pipeline to rename images :    
 
