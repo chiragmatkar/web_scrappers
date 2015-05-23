@@ -1,6 +1,6 @@
 
 **<h1>santabanta</h1>**    
-This is a Scrapy project to scrape Wallpapers from website www.santabanta.com.  
+This is a Scrapy project to scrape wallpapers from website www.santabanta.com.  
 
 **<h3>Items</h3>**    
 
