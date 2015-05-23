@@ -18,7 +18,7 @@ scrapy crawl santabanta -a wallpapers=eva-green
 scrapy crawl santabanta -a wallpapers=hrithik-roshan   
 scrapy crawl santabanta (default wallpapers=kelly-brook)   
 
-The naming convention for running sipder keyword argumets is small case first name and last name seperated by - (hrithik-roshan)    
+The naming convention for running sipder keyword arguments is small case first name and last name seperated by - (hrithik-roshan)    
 
 The santabanta spider scrapes wallpapers with paging and finds those beautiful Images.     
 
