@@ -11,7 +11,7 @@ See the source code for more details.
 
 **<h3>Spiders</h3>**    
 
-This project contains one spider called santa_spider.py that you can see by running:   
+This project contains santabanta spider in spiders/santa_spider.py that you can see by running:   
 
 Examples:   
 scrapy crawl santabanta -a wallpapers=eva-green   
