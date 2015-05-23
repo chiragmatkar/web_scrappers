@@ -1,15 +1,15 @@
 
-<h1>**santabanta**</h1>    
+**<h1>santabanta</h1>**    
 This is a Scrapy project to scrape Wallpapers from website www.santabanta.com.  
 
-**Items**    
+**<h3>Items</h3>**    
 
 The items scraped by this project are High Definition Images, and the item is defined in the class:  
 
 SantaBanta.items.SantaBantaItem  
 See the source code for more details.      
 
-**Spiders**    
+**<h3>Spiders</h3>**    
 
 This project contains one spider called santa_spider.py that you can see by running:   
 
@@ -28,7 +28,7 @@ http://www.santabanta.com/wallpapers
 
 So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).   
 
-**Image Pipelines**      
+**<h3>Image Pipelines</h3>**      
 
 This project uses a cutomized Image pipeline to rename images :    
 
