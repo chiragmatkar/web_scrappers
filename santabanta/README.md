@@ -14,9 +14,22 @@ See the source code for more details.
 This project contains santabanta spider in spiders/santa_spider.py that you can see by running:   
 
 Examples:   
+global-celebrities(f)    
 scrapy crawl santabanta -a wallpapers=eva-green   
+
+local-celebrities(m)
 scrapy crawl santabanta -a wallpapers=hrithik-roshan   
-scrapy crawl santabanta (default wallpapers=kelly-brook)   
+   
+cars  
+scrapy crawl santabanta -a wallpapers=mercedez-benz  
+
+bikes 
+scrapy crawl santabanta -a wallpapers=honda-bikes  
+scrapy crawl santabanta -a wallpapers=aprilia   
+
+default without arguments
+scrapy crawl santabanta (default wallpapers=kelly-brook)
+
 
 The naming convention for running sipder keyword arguments is small case first name and last name seperated by - (hrithik-roshan)    
 
