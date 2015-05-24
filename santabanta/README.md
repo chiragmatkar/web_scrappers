@@ -14,20 +14,20 @@ See the source code for more details.
 This project contains santabanta spider in spiders/santa_spider.py that you can see by running:   
 
 Examples:   
-global-celebrities(f)    
+global-celebrities(f)      
 scrapy crawl santabanta -a wallpapers=eva-green   
 
-local-celebrities(m)
+local-celebrities(m)   
 scrapy crawl santabanta -a wallpapers=hrithik-roshan   
    
-cars  
+cars     
 scrapy crawl santabanta -a wallpapers=mercedez-benz  
 
-bikes 
+bikes   
 scrapy crawl santabanta -a wallpapers=honda-bikes  
 scrapy crawl santabanta -a wallpapers=aprilia   
 
-default without arguments
+default without arguments   
 scrapy crawl santabanta (default wallpapers=kelly-brook)
 
 
