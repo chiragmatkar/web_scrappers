@@ -46,3 +46,5 @@ So, if you run the spider,it will scrape only those pages only for wallpapers wh
 This project uses a cutomized Image pipeline to rename images :    
 
 santabanta.pipelines.MyImagesPipeline    
+
+Please change IMAGE_STORE to directory location you need to scrape images into.
