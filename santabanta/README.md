@@ -47,4 +47,4 @@ This project uses a cutomized Image pipeline to rename images :
 
 santabanta.pipelines.MyImagesPipeline    
 
-Please change IMAGE_STORE to directory location you need to scrape images into.
+Please change IMAGE_STORE in settings.py to directory location you need to scrape images into.
