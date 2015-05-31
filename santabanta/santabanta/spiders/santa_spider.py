@@ -16,6 +16,7 @@ class MySpider(CrawlSpider):
           hxs = response
           pages= hxs.xpath('//*[@class=\'paging-div-new\']//@href').extract()
           if  pages:
+            yield Request(response.url,callback=self.parse_url1) 
             for j in pages:
                 yield Request(urllib2.urlparse.urljoin('http://www.santabanta.com/', j[1:]),callback=self.parse_url1)
           else:
