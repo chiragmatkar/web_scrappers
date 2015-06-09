@@ -10,7 +10,9 @@ SantaBanta.items.SantaBantaItem
 See the source code for more details.      
 
 **<h3>Spiders</h3>**    
+There are 2 spiders in this project wallpapers and images
 
+**<h5>wallpaper</h5>**
 This project contains santabanta spider in spiders/santa_spider.py that you can see by running:   
 
 Examples:   
@@ -40,6 +42,10 @@ This spider doesn't crawl the entire santabanta site but only a few pages by def
 http://www.santabanta.com/wallpapers    
 
 So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).Cutomization for resolution of wallpapers can be done adjusting height and weidth in setting.py   
+
+**<h5>images</h5>**
+
+
 
 **<h3>Image Pipelines</h3>**      
 
