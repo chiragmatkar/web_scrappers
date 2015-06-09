@@ -12,7 +12,7 @@ See the source code for more details.
 **<h3>Spiders</h3>**    
 There are 2 spiders in this project wallpapers and images
 
-**<h5>wallpaper</h5>**
+**<h5>wallpapers</h5>**
 This project contains santabanta spider in spiders/santa_spider.py that you can see by running:   
 
 Examples:   
