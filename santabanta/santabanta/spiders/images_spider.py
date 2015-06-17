@@ -4,7 +4,7 @@ from santabanta.items import SantaBantaItem
 import urllib2
 from scrapy.http.request import Request
 import os
-
+# This spider scraps images gallery from www.santabanta.com
 class MySpider(CrawlSpider):
     name = 'santa'
     allowed_domains = ['santabanta.com']
