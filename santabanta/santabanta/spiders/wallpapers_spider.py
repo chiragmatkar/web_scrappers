@@ -7,10 +7,12 @@ import os
 
 class MySpider(CrawlSpider):
     name = 'santabanta'
-    allowed_domains = ['santabanta.com']
 
-    def __init__(self, wallpapers='kelly-brook'):
-        self.start_urls = ['http://www.santabanta.com/wallpapers/' + str(wallpapers)]
+    def __init__(self, *args, **kwargs):
+      super(MySpider, self).__init__(*args, **kwargs)
+      self.allowed_domains = ['santabanta.com']
+      self.wallpapers = str(kwargs.get('wallpapers'))
+      self.start_urls = ['http://www.santabanta.com/wallpapers/' + str(self.wallpapers)]
 
     def parse(self, response):
           hxs = response
