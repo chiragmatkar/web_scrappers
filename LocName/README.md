@@ -9,9 +9,9 @@ SantaBanta.items.SantaBantaItem
 See the source code for more details.      
 
 **<h3>Spiders</h3>**    
-<h5>InternalLinkScrapper</h5> :  scraps all Internal Links related to website  
-<h5>ExternalLinkScrpaer</h5>  : scraps all External Links related to website  
-<h5>YelloPagesScrapper</h5>   : scraps all  Adresses,Location,Map co-ordinates 
+<h5>InternalLinkScrapper</h5>    Scraps all Internal Links related to website  
+<h5>ExternalLinkScrpaer</h5>     Sscraps all External Links related to website  
+<h5>YelloPagesScrapper</h5>      Scraps all  Adresses,Location,Map co-ordinates 
 
 
 **<h5>Webistes currrently scrapped</h5>**
