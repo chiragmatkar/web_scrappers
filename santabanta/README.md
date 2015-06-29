@@ -43,7 +43,7 @@ So, if you run the spider,it will scrape only those pages only for wallpapers wh
 
 **<h5>images</h5>**
 This spider scraps various bollywood events gallery pics like parties,music or film launch etc.
-Scrape url:http://www.santabanta.com/images      
+Scrape url example :http://www.santabanta.com/images/evelyn-sharma      
 scrapy crawl santabanta -a images=evelyn-sharma   
 scrapy crawl santabanta -a images=sonam-kapoor    
 
