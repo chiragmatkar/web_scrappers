@@ -42,7 +42,7 @@ This spider doesn't crawl the entire santabanta site but only a few pages by def
 So, if you run the spider,it will scrape only those pages only for wallpapers which are customized to save in settings.py (IMAGES_STORE).Cutomization for resolution of wallpapers can be done adjusting height and weidth in setting.py   
 
 **<h5>images</h5>**
-This spider scraps various bollywood events gallery pics like parties,music or film launch etc.
+This spider scraps various bollywood events gallery pics like parties,music or film launch etc.  
 Scrape url example:http://www.santabanta.com/images/sonam-kapoor      
 scrapy crawl santabanta -a images=sonam-kapoor    
 
