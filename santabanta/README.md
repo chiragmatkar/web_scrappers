@@ -10,7 +10,7 @@ SantaBanta.items.SantaBantaItem
 See the source code for more details.      
 
 **<h3>Spiders</h3>**    
-There are 2 spiders in this project wallpapers and images
+There are 2 spiders in this project for  wallpapers(santbanta) and image gallery (santabanta2)
 
 **<h5>wallpapers</h5>**
 This spider scraps High Definition wallpapers  
@@ -44,8 +44,8 @@ So, if you run the spider,it will scrape only those pages only for wallpapers wh
 **<h5>images</h5>**
 This spider scraps various bollywood events gallery pics like parties,music or film launch etc.
 Scrape url:http://www.santabanta.com/gallery      
-scrapy crawl santabanta -a images=evelyn-sharma
-scrapy crawl santabanta -a images=sonam-kapoor 
+scrapy crawl santabanta -a images=evelyn-sharma   
+scrapy crawl santabanta -a images=sonam-kapoor    
 
 
 **<h3>Image Pipelines</h3>**      
