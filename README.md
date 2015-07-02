@@ -6,6 +6,6 @@ Web scraping is closely related to web indexing, which indexes information on th
 This directory consists of diferent scrapping projects mainly written in **Python Scrapy** :  
 **<h5>santabanta</h5>**: Scrapper used to  Extract High Definiton wallpapers and Galeries  of global celebrities,indian celebrities,sciene,nature,cars from www.santabanta.com 
 **<h5>Locname</h5>**:  Scrapper used for extracting Adress,telphone,Map Co-ordinates. 
-**<h5>misc</h5>**:  Scrappers used for  miscellenaous basic data scrapping. 
+**<h5>misc</h5>**:  Scrappers used for  miscellenaous basic data scrapping.    
 ....Coming Soon 
 
