@@ -20,7 +20,7 @@ NEWSPIDER_MODULE = 'santabanta.spiders'
 ITEM_PIPELINES = {'santabanta.pipelines.MyImagesPipeline':1}
 
 #Images store path
-IMAGES_STORE = 'E:\PICS'
+IMAGES_STORE = 'C:\PICS'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'santa (+http://www.yourdomain.com)'
