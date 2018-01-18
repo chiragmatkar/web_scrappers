@@ -1,6 +1,7 @@
 
 **<h1>santabanta</h1>**    
 This is a Scrapy project to scrape wallpapers from website www.santabanta.com.  
+Note : This is a trial version of the software and buld data download is available as paid version.contact chirag.matkar@gmail.com for details.
 
 **<h3>Items</h3>**    
 
