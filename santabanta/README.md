@@ -3,7 +3,7 @@
 This is a Scrapy project to scrape wallpapers from website www.santabanta.com.  
 Note : This is a trial version of the software and bulk data download is available as paid version.contact chirag.matkar@gmail.com for details.
 
-I have developed web scrappers for dowloding HD wallpapers from belowing websites.
+I have developed web scrappers for dowloading HD wallpapers from belowing websites.
 www.santabanta.com
 www.glamsham.com
 
