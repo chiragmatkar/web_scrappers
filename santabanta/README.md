@@ -1,11 +1,15 @@
+**<h2>Now Compatible with Python 3.8 and Scrapy 2.X versions </h2>**
 
 **<h1>santabanta</h1>**    
+
 This is a Scrapy project to scrape wallpapers from website www.santabanta.com.  
 Note : This is a trial version of the software and bulk data download is available as paid version.contact chirag.matkar@gmail.com for details.
 
 I have developed web scrappers for dowloading HD wallpapers from belowing websites.
 www.santabanta.com
 www.glamsham.com
+
+
 
 **<h3>Items</h3>**    
 

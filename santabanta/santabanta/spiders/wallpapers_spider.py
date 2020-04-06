@@ -1,9 +1,10 @@
-from scrapy.contrib.spiders import CrawlSpider , Rule
-from scrapy.selector import HtmlXPathSelector
+from scrapy.spiders import CrawlSpider , Rule
+from scrapy.selector import Selector
 from santabanta.items import SantaBantaItem
-import urllib2
+from urllib.parse import urljoin
 from scrapy.http.request import Request
 import os
+
 
 class MySpider(CrawlSpider):
     name = 'santabanta'
@@ -15,23 +16,23 @@ class MySpider(CrawlSpider):
       self.start_urls = ['http://www.santabanta.com/wallpapers/' + str(self.wallpapers)]
 
     def parse(self, response):
-          hxs = response
-          pages= hxs.xpath('//*[@class=\'paging-div-new\']//@href').extract()
+          sel = Selector(response)
+          pages = sel.xpath('//*[@class=\'paging-div-new\']//@href').extract()
           if  pages:
-            yield Request(response.url,callback=self.parse_url1) 
+            yield Request(response.url,callback=self.parse_url1)
             for j in pages:
-                yield Request(urllib2.urlparse.urljoin('http://www.santabanta.com/', j[1:]),callback=self.parse_url1)
+                yield Request(urljoin('http://www.santabanta.com/', j[1:]),callback=self.parse_url1)
           else:
                 yield Request(response.url,callback=self.parse_url1)
 
     def parse_url1(self,response):
-        hxs=response
-        urls2=hxs.xpath('//a[contains(@href,"htm")]//@href').extract()
+        sel = Selector(response)
+        urls2 = sel.xpath('//a[contains(@href,"htm")]//@href').extract()
         for i in urls2:
-            yield Request(urllib2.urlparse.urljoin('http://www.santabanta.com/', i[1:]+"?high=5"),callback=self.parse_url2)
+            yield Request(urljoin('http://www.santabanta.com/', i[1:]+"?high=5"),callback=self.parse_url2)
 
     def parse_url2(self, response):
-          hxs = response
+          sel = Selector(response)
           item = SantaBantaItem()
-          item['image_urls']=hxs.xpath('//a[contains(@href, "full")]/img/@src').extract()
+          item['image_urls']= sel.xpath('//a[contains(@href, "full")]/img/@src').extract()
           yield item
